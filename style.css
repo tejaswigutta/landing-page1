@@ -1,0 +1,358 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+#byjus-logo {
+  text-align: center;
+}
+
+#byjus-logo img {
+  height: 100px;
+  width: 200px;
+}
+
+#gre-intro {
+  color: #fff;
+  text-align: center;
+  padding-top: 40px;
+  display: flex;
+  flex-direction: column;
+}
+
+#gre-intro h1,#text-line-3 {
+  margin: 10px;
+}
+
+#text-line-3 {
+  font-size: 23px;
+}
+
+#gre-intro {
+  background-image: url("./assets-GRE/img_heroweb_GRE.png");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+#description {
+  background-color: #00008b;
+  border-radius: 100px;
+  margin-left: 5%;
+  margin-right: 5%;
+  display: flex;
+  justify-content: space-around;
+  padding: 1%;
+}
+
+#description img {
+  height: 70px;
+  width: 100%;
+  border-radius: 50%;
+  background-color: yellow;
+}
+
+.brief-description {
+  display: flex;
+  color: white;
+  justify-content: space-around;
+}
+
+.sub-description {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.sub-description p:first-child {
+  font-size: 2vw;
+  font-weight: bold;
+}
+
+.sub-description p {
+  font-size: 1vw;
+}
+
+.desc-img {
+  display: flex;
+  align-items: center;
+}
+
+.enroll {
+  margin: 2%;
+  text-align: center;
+}
+
+.enroll button {
+  font-size: 2vw;
+  padding: 1%;
+  border-radius: 100px;
+  background-color: #ff7f50;
+  color: #fff;
+  border-width: 0;
+}
+
+#how-it-works p {
+  margin-left: 5%;
+  font-size: 60px;
+  font-weight: normal;
+}
+
+#how-it-works-img {
+  height: 100vh;
+  background-image: url("./assets-GRE/img_\ web_\ sec2.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: contain;
+}
+
+@media (max-width: 480px) {
+  #gre-intro {
+    background-image: url("./assets-GRE/img_heromob_GRE@3x.png");
+    height: auto;
+  }
+
+  #description {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 1%;
+    border-radius: 5%;
+  }
+
+  .brief-description {
+    display: flex;
+    justify-content: space-around;
+    padding-left: 20%;
+    padding-right: 20%;
+  }
+
+  .desc-img {
+    margin-left: 1%;
+  }
+
+  #how-it-works-img {
+    height: 100vh;
+    background-image: url("./assets-GRE/img_\ mob.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: contain;
+  }
+
+  #how-it-works p {
+    margin-left: 5%;
+    font-size: 40px;
+    font-weight: normal;
+  }
+
+  .sub-description p:first-child {
+    font-size: 4vw;
+    font-weight: bold;
+  }
+
+  .sub-description p {
+    font-size: 3vw;
+  }
+
+  #features {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+
+  #santosh-img img {
+    padding-left: 5%;
+    width: 60%;
+    height: auto;
+  }
+
+  #santosh-img {
+    text-align: center;
+    margin-top: 1%;
+  }
+
+  #webinar {
+    margin-bottom: 10px;
+  }
+
+  #form-img {
+    display: flex;
+    flex-direction: column;
+  }
+
+  #form {
+    margin-bottom: 30px;
+  }
+
+  .input-design {
+    margin-top: 30px;
+    width: 150px;
+    height: 50px;
+    text-align: center;
+    font-size: 20px;
+  }
+
+  body #copy-right {
+    font-size: 10px;
+    height: 100px;
+  }
+}
+
+@media (min-width: 481px) and (max-width: 681px) {
+  #how-it-works-img {
+    height: 100vh;
+    background-image: url("./assets-GRE/img_\ Tab@2x.svg");
+    background-repeat: no-repeat;
+    /* background-color: green; */
+    background-position: center center;
+    background-size: contain;
+  }
+
+  #features {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+
+  #santosh-img img {
+    padding-left: 5%;
+    width: 60%;
+    height: auto;
+  }
+
+  #santosh-img {
+    text-align: center;
+    margin-top: 1%;
+  }
+
+  #webinar {
+    margin-bottom: 10px;
+  }
+
+  #cards > article {
+    width: 150px;
+  }
+
+  #form-img {
+    display: flex;
+    flex-direction: column;
+  }
+
+  #form {
+    margin-bottom: 30px;
+  }
+
+  body #copy-right {
+    font-size: 10px;
+    height: 100px;
+  }
+}
+
+#features {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 3%;
+  background-color: #f5f5f5;
+}
+
+#santosh-img img {
+  width: 100%;
+  height: auto;
+}
+
+#webinar {
+  padding-left: 6%;
+}
+
+#webinar p:first-child {
+  font-size: 6vw;
+  font-weight: bold;
+}
+#webinar p {
+  font-size: 3vw;
+}
+
+#cards {
+  margin: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  grid-gap: 20px;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+#cards > article {
+  background: #f0f0f0;
+  border: none;
+  box-shadow: 2px 2px 6px 0px rgba(0, 0, 0, 0, 3);
+  border-radius: 20px;
+  text-align: center;
+  width: 250px;
+  height: 350px;
+}
+
+#cards > article img {
+  width: 60%;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+
+.text {
+  padding: 0 20px 20px;
+}
+
+#key-features h1 {
+  font-size: 40px;
+  font-weight: bolder;
+  margin-left: 70px;
+}
+
+#form-img {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+#form {
+  text-align: center;
+}
+
+#form button {
+  background-color: #ff7f50;
+  border-radius: 100px;
+}
+
+#img-in-form {
+  text-align: center;
+  /* border:2px solid black; */
+}
+
+#img-in-form img {
+  height: 300px;
+  width: 300px;
+  border-radius: 100px;
+}
+
+#enroll-for-a-free-course {
+  background: #f0f0f0;
+  padding: 30px;
+}
+
+
+.input-design {
+  margin-top: 30px;
+  width: 300px;
+  height: 50px;
+  text-align: center;
+  font-size: 20px;
+}
+
+#copy-right {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: darkblue;
+  height: 200px;
+  color: white;
+  font-size: 30px;
+}
